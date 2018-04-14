@@ -1,0 +1,50 @@
+.schema-widget
+{
+	&.thumb-only
+	{
+		margin-left:-7.5px;
+		margin-right:-7.5px;
+
+		ul
+		{
+			padding: 0px;
+			margin: 0px;
+			list-style: none;
+
+			.list-item
+			{
+				float: left;
+				margin-left: 7.5px;
+				margin-right: 7.5px;
+				margin-bottom: 15px;
+				width: 31%;
+
+				.item-avatar
+				{
+					width: 23%;
+				}
+
+				.item-avatar, .item-detail
+				{
+					float: left;
+					clear: none;
+				}
+
+				.item-detail
+				{
+					width: 70%;
+					font-family: $font-family-serif;
+					font-size: 14px;
+					color: $text-color;
+					min-height: 80px;
+					
+					.title
+					{
+						margin-top:0px;
+						margin-bottom:0px;
+					}
+				}
+			}
+		}
+	}
+}

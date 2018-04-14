@@ -1,0 +1,110 @@
+::-webkit-scrollbar {
+    width: 15px;
+    height: 15px
+}
+
+::-webkit-scrollbar-thumb {
+    background-color: rgba(50, 50, 50, 0.25);
+    border: 2px solid transparent;
+    border-radius: 10px;
+    -webkit-background-clip: padding-box;
+    background-clip: padding-box
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background-color: rgba(50, 50, 50, 0.5)
+}
+
+::-webkit-scrollbar-track {
+    background-color: rgba(50, 50, 50, 0.05)
+}
+
+.laradox-hero {
+    padding-top: 80px; // padding-bottom: 40px;
+    margin-top: -22px;
+    border-bottom: solid 1px $border-line;
+    background-color: $brand-laradox; // Old browsers
+    @include filter-gradient(darken($brand-laradox, 8%), $brand-laradox, vertical); // IE6-9
+    @include background-image(linear-gradient(top, darken($brand-laradox, 8%) 0%, $brand-laradox 100%));
+    .hero-title {
+        font-size: 26px;
+        font-weight: 600;
+        line-height: 1.4em;
+    }
+    .register-form {}
+    .img-browser {
+        width: 100%;
+    }
+    .img-screen
+    {
+        width: 100%;
+        border-radius: 8px;
+    }
+}
+
+.laradox-discover-hero {
+    padding-top: 50px;
+    padding-bottom: 50px; // padding-bottom: 40px;
+    margin-top: -22px;
+    border-bottom: solid 1px $border-line;
+    background-color: $brand-laradox; // Old browsers
+    @include filter-gradient(darken($brand-laradox, 8%), $brand-laradox, vertical); // IE6-9
+    @include background-image(linear-gradient(top, darken($brand-laradox, 8%) 0%, $brand-laradox 100%));
+    .hero-title {
+        font-size: 26px;
+        font-weight: 600;
+        line-height: 1.4em;
+    }
+    .register-form {}
+    .img-browser {
+        width: 100%;
+    }
+}
+
+footer {
+    padding-top: 30px;
+    padding-bottom: 30px;
+    background-color: #272822;
+    color: $gray-light;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+.authentication {
+    height: 100%;
+    background-color: $brand-laradox; // Old browsers
+    @include filter-gradient(darken($brand-laradox, 8%), $brand-laradox, vertical); // IE6-9
+    @include background-image(linear-gradient(top, darken($brand-laradox, 8%) 0%, $brand-laradox 100%));
+    body {
+        height: 100%;
+        background: transparent;
+        .auth-logo {
+            margin-top: 100px;
+            margin-bottom: 25px;
+            max-width: 100%;
+            img {
+                max-width: 100%;
+            }
+        }
+        .auth-container {
+            background: white;
+            padding: 15px;
+            border-radius: 4px;
+        }
+    }
+}
+
+html,
+body {
+    height: 100%;
+}
+
+#share-buttons img {
+    width: 35px;
+    padding: 5px;
+    border: 0;
+    box-shadow: 0;
+    display: inline;
+    }

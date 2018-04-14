@@ -1,0 +1,43 @@
+{
+  "name": "jsplumb",
+  "version": "2.4.0",
+  "ignore": [
+    "node_modules",
+    "Gruntfile.js",
+    "README.md",
+    "package.json",
+    ".idea",
+    "css",
+    "doc",
+    "img",
+    "jekyll",
+    "src",
+    "tests",
+    "dist/apidocs",
+    "dist/css",
+    "dist/demo",
+    "dist/doc",
+    "dist/img",
+    "dist/tests",
+    "dist/js/demo-list.js"
+  ],
+  "main": [
+    "dist/js/jsplumb.js"
+  ],
+  "homepage": "https://jsplumbtoolkit.com",
+  "authors": [
+    "jsPlumb <hello@jsplumbtoolkit.com>"
+  ],
+  "description": "Visual connectivity for webapps",
+  "license": "/jsPlumb-LICENSE.txt",
+  "_release": "2.4.0",
+  "_resolution": {
+    "type": "version",
+    "tag": "2.4.0",
+    "commit": "4487f4ccbcd4d120e6726c6062a093efe1d99625"
+  },
+  "_source": "https://github.com/sporritt/jsPlumb.git",
+  "_target": "^2.4.0",
+  "_originalSource": "jsplumb",
+  "_direct": true
+}

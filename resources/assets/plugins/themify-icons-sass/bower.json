@@ -1,0 +1,37 @@
+{
+    "name": "themify-icons-sass",
+    "version": "0.0.3",
+    "homepage": "https://github.com/krisanalfa/themify-icons-sass",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/krisanalfa/themify-icons-sass"
+    },
+    "description": "Pixel-perfect, hand-crafted icons that draw inspiration from Apple iOS 7",
+    "main": [
+        "sass",
+        "svg",
+        "fonts"
+    ],
+    "keywords": [
+        "icons",
+        "line",
+        "iOS",
+        "pixel",
+        "perfect",
+        "draw"
+    ],
+    "authors": [
+        "krisanalfa <krisan47@gmail.com>",
+        "themify.me <http://themify.me/themify-icons>"
+    ],
+    "license": ["MIT", "OFL"],
+    "ignore": [
+        "**/.*",
+        "node_modules",
+        "bower_components",
+        "test",
+        "tests",
+        "demo-files",
+        "index.html"
+    ]
+}

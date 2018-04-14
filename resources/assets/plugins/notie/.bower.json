@@ -1,0 +1,15 @@
+{
+  "name": "notie",
+  "homepage": "https://github.com/jaredreich/notie.js",
+  "version": "4.3.1",
+  "_release": "4.3.1",
+  "_resolution": {
+    "type": "version",
+    "tag": "v4.3.1",
+    "commit": "0ae30fb85a60457ddbc39e743f244e42770b886a"
+  },
+  "_source": "https://github.com/jaredreich/notie.js.git",
+  "_target": "^4.3.1",
+  "_originalSource": "notie",
+  "_direct": true
+}
